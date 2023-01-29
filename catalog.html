@@ -70,13 +70,47 @@
                     </ul>
                 </div>
                 <div class="filters">
+                    <h2 class="visually-hidden">Фильтры</h2>
                     <div class="infrastructure">
+                        <h3>Инфраструктура:</h3>
+                        <ul class="infrastructure-items">
+                            <li class="infrastructure-item">
+                                <p><input type="checkbox" name="infrastructure" value="pool"> Бассейн</p>
+                            </li>
+                            <li class="infrastructure-item">
+                                <p><input type="checkbox" name="infrastructure" value="parking"> Парковка</p>
+                            </li>
+                            <li class="infrastructure-item">
+                                <p><input type="checkbox" name="infrastructure" value="wifi"> Wi-Fi</p>
+                            </li>
+                        </ul>
 
                     </div>
                     <div class="type_of_housing">
-
+                        <h3>Тип жилья:</h3>
+                        <ul class="type_of_housing-items">
+                            <li class="type_of_housing-item">
+                                <p><input name="type_of_housing" type="radio" value="hotel">Гостиница</p>
+                            </li>
+                            <li class="type_of_housing-item">
+                                <p><input name="type_of_housing" type="radio" value="motel">Мотель</p>
+                            </li>
+                            <li class="type_of_housing-item">
+                                <p><input name="type_of_housing" type="radio" value="appartments">Апартаменты</p>
+                            </li>
+                        </ul>
                     </div>
                     <div class="cost">
+                        <h3>Стоимость, ₽:</h3>
+                        <div class="cost_range">
+                            <input class="start_cost">
+                            <input class="end_cost">
+                        </div>
+
+                    </div>
+                    <div class="filter__buttons">
+                        <button class="filter__buttons_accept">Применить</button>
+                        <button class="filter__buttons_cancel">СБРОСИТЬ</button>
 
                     </div>
                 </div>
