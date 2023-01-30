@@ -49,7 +49,7 @@
 
         </header>
 
-        <main class="main">
+        <main class="main-inner">
 
             <section class="filter">
                 <h1>Гостиницы Седоны</h1>
@@ -118,8 +118,120 @@
             </section>
 
             <section class="hotels">
-                <h2></h2>
-                <p>Найдено гостиниц:<span>38</span></p>
+                <h2 class="visually-hidden">Гостиницы</h2>
+                <p class="hotels_search">Найдено гостиниц:<span>38</span></p>
+                <select class="select-control" aria-label="Сортировка">
+                    <option value="cheap">Сначала дешевые</option>
+                    <option value="expensive">Сначала дорогие</option>
+                    <option value="popular">Сначала популярные</option>
+                </select>
+                <div class="hotels-sorting">
+                    <button class="hotels-sorting__table">Таблицей</button>
+                    <button class="hotels-sorting__card">Карточка</button>
+                    <button class="hotels-sorting__listing">Списком</button>
+                </div>
+
+                <div class="hotels__wrapper">
+                    <ul class="hotels__list">
+                        <li class="hotels__item">
+                            <a href="#" class="hotels__item-img">
+                                <img src="#" alt="Фото скал возле отеля Amara Resort & Spa">
+                            </a>
+                            <h3>Amara Resort & Spa</h3>
+                            <div class="hotels__type_price">
+                                <p class="hotels__type">Гостиница</p>
+                                <p class="hotels__price">От <span>4000</span> ₽</p>
+                            </div>
+
+                            <div class="hotels__buttons">
+                                <button class="hotels__detailed">Подробнее</button>
+                                <button class="hotels__favorites">В Избранное</button>
+                            </div>
+
+                            <div class="hotels__raitings">
+                                <a href="#">
+                                    <img class="hotels__stars stars-four" src="#" alt="Звёзды Отеля">
+                                </a>
+                                <a class="hotel__raiting" href="#">
+                                    <button>РЕЙТИНГ: <span>8,5</span></button>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="hotels__item">
+                            <a href="#" class="hotels__item-img">
+                                <img src="#" alt="Фото скал возле отеля Villas at Poco Diablo">
+                            </a>
+                            <h3>Villas at Poco Diablo</h3>
+                            <div class="hotels__type_price">
+                                <p class="hotels__type">Гостиница</p>
+                                <p class="hotels__price">От <span>5000</span> ₽</p>
+                            </div>
+
+                            <div class="hotels__buttons">
+                                <button class="hotels__detailed">Подробнее</button>
+                                <button class="hotels__favorites">В Избранное</button>
+                            </div>
+
+                            <div class="hotels__raitings">
+                                <a href="#">
+                                    <img class="hotels__stars stars-four" src="#" alt="Звёзды Отеля">
+                                </a>
+                                <a class="hotel__raiting" href="#">
+                                    <button>РЕЙТИНГ: <span>9,2</span></button>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="hotels__item">
+                            <a href="#" class="hotels__item-img">
+                                <img src="#" alt="Фото скал возле отеля Desert Quail Inn">
+                            </a>
+                            <h3>Desert Quail Inn</h3>
+                            <div class="hotels__type_price">
+                                <p class="hotels__type">Гостиница</p>
+                                <p class="hotels__price">От <span>2500</span> ₽</p>
+                            </div>
+
+                            <div class="hotels__buttons">
+                                <button class="hotels__detailed">Подробнее</button>
+                                <button class="hotels__favorites">В Избранное</button>
+                            </div>
+
+                            <div class="hotels__raitings">
+                                <a href="#">
+                                    <img class="hotels__stars stars-three" src="#" alt="Звёзды Отеля">
+                                </a>
+                                <a class="hotel__raiting" href="#">
+                                    <button>РЕЙТИНГ: <span>6,9</span></button>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="hotels__item">
+                            <a href="#" class="hotels__item-img">
+                                <img src="#" alt="Фото скал возле отеля GreenTree Inn">
+                            </a>
+                            <h3>GreenTree Inn</h3>
+                            <div class="hotels__type_price">
+                                <p class="hotels__type">Гостиница</p>
+                                <p class="hotels__price">От <span>1500</span> ₽</p>
+                            </div>
+
+                            <div class="hotels__buttons">
+                                <button class="hotels__detailed">Подробнее</button>
+                                <button class="hotels__favorites">В Избранное</button>
+                            </div>
+
+                            <div class="hotels__raitings">
+                                <a href="#">
+                                    <img class="hotels__stars stars-two" src="#" alt="Звёзды Отеля">
+                                </a>
+                                <a class="hotel__raiting" href="#">
+                                    <button>РЕЙТИНГ: <span>5,0</span></button>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
             </section>
 
             <section class="subscribe">
