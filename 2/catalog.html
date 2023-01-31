@@ -110,8 +110,8 @@
 
                     </div>
                     <div class="filter__buttons">
-                        <button class="filter__buttons_accept">Применить</button>
-                        <button class="filter__buttons_cancel">СБРОСИТЬ</button>
+                        <button class="filter__buttons_accept" type="button">Применить</button>
+                        <button class="filter__buttons_cancel" type="button">СБРОСИТЬ</button>
 
                     </div>
                 </div>
@@ -127,9 +127,9 @@
                     <option value="popular">Сначала популярные</option>
                 </select>
                 <div class="hotels-sorting">
-                    <button class="hotels-sorting__table">Таблицей</button>
-                    <button class="hotels-sorting__card">Карточка</button>
-                    <button class="hotels-sorting__listing">Списком</button>
+                    <button class="hotels-sorting__table" type="button">Таблицей</button>
+                    <button class="hotels-sorting__card" type="button">Карточка</button>
+                    <button class="hotels-sorting__listing" type="button">Списком</button>
                 </div>
 
                 <div class="hotels__wrapper">
@@ -145,15 +145,15 @@
                             </div>
 
                             <div class="hotels__buttons">
-                                <button class="hotels__detailed">Подробнее</button>
-                                <button class="hotels__favorites">В Избранное</button>
+                                <button class="hotels__detailed" type="button">Подробнее</button>
+                                <button class="hotels__favorites" type="button">В Избранное</button>
                             </div>
 
                             <div class="hotels__raitings">
 
                                 <img class="hotels__stars stars-four" src="#" alt="Звёзды Отеля">
 
-                                <button>РЕЙТИНГ: <span>8,5</span></button>
+                                <p class="raiting">РЕЙТИНГ: <span>8,5</span></p>
 
                             </div>
                         </li>
@@ -168,15 +168,15 @@
                             </div>
 
                             <div class="hotels__buttons">
-                                <button class="hotels__detailed">Подробнее</button>
-                                <button class="hotels__favorites">В Избранное</button>
+                                <button class="hotels__detailed" type="button">Подробнее</button>
+                                <button class="hotels__favorites" type="button">В Избранное</button>
                             </div>
 
                             <div class="hotels__raitings">
 
                                 <img class="hotels__stars stars-four" src="#" alt="Звёзды Отеля">
 
-                                <button>РЕЙТИНГ: <span>9,2</span></button>
+                                <p class="raiting">РЕЙТИНГ: <span>9,2</span></p>
 
                             </div>
                         </li>
@@ -191,15 +191,15 @@
                             </div>
 
                             <div class="hotels__buttons">
-                                <button class="hotels__detailed">Подробнее</button>
-                                <button class="hotels__favorites">В Избранное</button>
+                                <button class="hotels__detailed" type="button">Подробнее</button>
+                                <button class="hotels__favorites" type="button">В Избранное</button>
                             </div>
 
                             <div class="hotels__raitings">
 
                                 <img class="hotels__stars stars-three" src="#" alt="Звёзды Отеля">
 
-                                <button>РЕЙТИНГ: <span>6,9</span></button>
+                                <p class="raiting">РЕЙТИНГ: <span>6,9</span></p>
 
                             </div>
                         </li>
@@ -214,14 +214,14 @@
                             </div>
 
                             <div class="hotels__buttons">
-                                <button class="hotels__detailed">Подробнее</button>
-                                <button class="hotels__favorites">В Избранное</button>
+                                <button class="hotels__detailed" type="button">Подробнее</button>
+                                <button class="hotels__favorites" type="button">В Избранное</button>
                             </div>
 
                             <div class="hotels__raitings">
                                 <img class="hotels__stars stars-two" src="#" alt="Звёзды Отеля">
 
-                                <button>РЕЙТИНГ: <span>5,0</span></button>
+                                <p class="raiting">РЕЙТИНГ: <span>5,0</span></p>
 
                             </div>
                         </li>
@@ -256,13 +256,13 @@
             </section>
 
             <section class="subscribe">
-                <h2 class="normal-color">Подпишитесь на рассылку</h2>
-                <p class="subscribe-text normal-color">Только полезная информация и никакого спама, честное
+                <h2>Подпишитесь на рассылку</h2s=>
+                <p class="subscribe-text">Только полезная информация и никакого спама, честное
                     бойскаутское!</p>
-                <p class="subscribe-form">
-                    <input class="subscribe-email" type="email" name="login">
-                    <button class="subscribe-button">Подписаться</button>
-                </p>
+                <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
+                    <input class="subscribe-email" type="email" name="email" placeholder="Ваш e-mail">
+                    <button class="subscribe-button" type="submit">Подписаться</button>
+                </form>
             </section>
 
         </main>
@@ -273,17 +273,17 @@
                 <h2 class="visually-hidden">Социальные сети</h2>
                 <ul class="footer-social-list">
                     <li class="footer-social-item">
-                        <a class="button" href="#">
+                        <a class="vk" href="#">
                             <span class="visually-hidden">ВКонтакте</span>
                         </a>
                     </li>
                     <li class="footer-social-item">
-                        <a class="button" href="#">
+                        <a class="telegramm" href="#">
                             <span class="visually-hidden">Телеграмм</span>
                         </a>
                     </li>
                     <li class="footer-social-item">
-                        <a class="button" href="#">
+                        <a class="youtube" href="#">
                             <span class="visually-hidden">Youtube</span>
                         </a>
                     </li>
