@@ -4,6 +4,7 @@
     <head>
         <meta charset="utf-8">
         <title>HTML Academy: Седона -> Каталог</title>
+        <link rel="stylesheet" href="styles/styles.css">
     </head>
 
     <body>
@@ -52,7 +53,7 @@
         <main class="main-inner">
 
             <section class="filter">
-                <h1>Гостиницы Седоны</h1>
+                <h1 class="filter-header">Гостиницы Седоны</h1>
                 <div class="breadcrumbs-wrapper">
                     <ul class="breadcrumbs">
                         <li class="breadcrumbs-point">
@@ -118,22 +119,25 @@
 
             <section class="hotels">
                 <h2 class="visually-hidden">Гостиницы</h2>
-                <p class="hotels_search">Найдено гостиниц:<span>38</span></p>
-                <select class="select-control" aria-label="Сортировка">
-                    <option value="cheap">Сначала дешевые</option>
-                    <option value="expensive">Сначала дорогие</option>
-                    <option value="popular">Сначала популярные</option>
-                </select>
-                <div class="hotels-sorting">
-                    <button class="hotels-sorting__table" type="button"><img src="img/icons/table.svg" width="16"
-                            height="14" alt="Показать результаты поиска таблицей"></button>
-                    <button class="hotels-sorting__card" type="button"><img src="img/icons/card.svg" width="16"
-                            height="14" alt="Показать результаты поиска карточкой"></button>
-                    <button class="hotels-sorting__listing" type="button"><img src="img/icons/listing.svg" width="16"
-                            height="14" alt="Показать результаты поиска списком"></button>
+                <div class="hotels-wrapper">
+                    <p class="hotels_search">Найдено гостиниц:<span>38</span></p>
+                    <select class="select-control" aria-label="Сортировка">
+                        <option value="cheap">Сначала дешевые</option>
+                        <option value="expensive">Сначала дорогие</option>
+                        <option value="popular">Сначала популярные</option>
+                    </select>
+
+                    <div class="hotels-sorting">
+                        <button class="hotels-sorting__table" type="button"><img src="img/icons/table.svg" width="16"
+                                height="14" alt="Показать результаты поиска таблицей"></button>
+                        <button class="hotels-sorting__card" type="button"><img src="img/icons/card.svg" width="16"
+                                height="14" alt="Показать результаты поиска карточкой"></button>
+                        <button class="hotels-sorting__listing" type="button"><img src="img/icons/listing.svg" width="16"
+                                height="14" alt="Показать результаты поиска списком"></button>
+                    </div>
                 </div>
 
-                <div class="hotels__wrapper">
+                <div class="hotels-search-wrapper">
                     <ul class="hotels__list">
                         <li class="hotels__item">
                             <a href="#" class="hotels__item-img">
@@ -173,7 +177,7 @@
 
                             <div class="hotels__buttons">
                                 <button class="hotels__detailed" type="button">Подробнее</button>
-                                <button class="hotels__favorites" type="button">В Избранное</button>
+                                <button class="hotels__favorites__cheked" type="button">В Избранном</button>
                             </div>
 
                             <div class="hotels__raitings">

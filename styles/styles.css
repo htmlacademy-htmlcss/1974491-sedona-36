@@ -9,6 +9,283 @@
 
 body {
   font-family: "PT Sans", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 21px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.page-header {
+  background-color: #ffffff;
+}
+
+.navigation-list {
+  list-style-type: none;
+}
+
+.navigation-item {
+  font-size: 20px;
+  line-height: 24px;
+  font-style: 700;
+}
+
+.hero {
+  width: 1200px;
+  height: 485px;
+  background-image: url(../img/index-background.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-welcome {
+  margin-top: 51px;
+}
+
+.main-divider {
+  height: 57px;
+}
+
+.reasons {
+  display: flex;
+  flex-direction: column;
+}
+
+.reasons-text {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.advantages-items {
+  list-style-type: none;
+}
+
+.advantages-item h3 {
+  font-size: 24px;
+  line-height: 28px;
+  font-style: 700;
+}
+
+.advantages-item p {
+  font-size: 18px;
+}
+
+
+.slogan-header {
+  font-size: 30px;
+  line-height: 36px;
+  font-style: 700;
+}
+
+.slogan-text {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.recomendation-list {
+  display: flex;
+  justify-content: center;
+}
+
+.recondation-name {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.interested h2 {
+  font-size: 30px;
+  line-height: 36px;
+  font-style: 700;
+}
+
+.interested-text {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.intersted-button {
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.subscribe h2 {
+  font-size: 20px;
+  line-height: 36px;
+  font-style: 700;
+  color: #ffffff;
+}
+
+.subscribe-text {
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.subscribe-button {
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.page-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-social-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: start;
+}
+
+.contacts-address {
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.filter {
+  color: #ffffff;
+  background-image: url(../img/filter.jpg);
+  background-repeat: no-repeat;
+}
+
+.filter-header {
+  font-size: 60px;
+  line-height: 78px;
+  font-style: 700;
+}
+
+.breadcrumbs {
+  display: flex;
+  justify-content: start;
+  list-style-type: none;
+}
+
+.breadcrumbs-item span {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+}
+
+.infrastructure-items,
+.type_of_housing-items {
+  list-style-type: none;
+}
+
+.infrastructure h3,
+.type_of_housing h3,
+.cost h3 {
+  font-size: 20px;
+  line-height: 24px;
+  font-style: 700;
+}
+
+.infrastructure-item p,
+.type_of_housing-item p {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.cost_range {
+  color: #000000;
+  font-size: 18px;
+  line-height: 24px;
+  font-style: 700;
+}
+
+.filter__buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.hotels-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hotels_search {
+  color: #000000;
+  font-size: 30px;
+  line-height: 36px;
+  font-style: 700;
+}
+
+.select-control {
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.hotels__list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.hotels__item h3 {
+  font-size: 24px;
+  line-height: 28px;
+  font-style: 700;
+}
+
+.hotels__type_price {
+  color: #333333;
+  display: flex;
+  justify-content: space-around;
+}
+
+.hotels__buttons {
+  display: flex;
+  justify-content: space-between
+}
+
+.hotels__buttons button {
+  color: #ffffff;
+}
+
+.hotels__detailed {
+  background-color: #756157;
+}
+
+.hotels__favorites {
+  background-color: #82b3d3;
+}
+
+.hotels__favorites__cheked {
+  background-color: #7db54f;
+}
+
+.hotels__raitings {
+  display: flex;
+  justify-content: space-between;
+}
+
+.raiting {
+  background-color: #f2f2f2;
+  color: #333333;
+}
+
+.pagination {
+  display: flex;
+  justify-content: start;
+  list-style-type: none;
 }
