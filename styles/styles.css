@@ -197,12 +197,12 @@ body {
 }
 
 .infrastructure-items,
-.type_of_housing-items {
+.type-of-housing-items {
   list-style-type: none;
 }
 
 .infrastructure h3,
-.type_of_housing h3,
+.type-of-housing h3,
 .cost h3 {
   font-size: 20px;
   line-height: 24px;
@@ -210,19 +210,19 @@ body {
 }
 
 .infrastructure-item p,
-.type_of_housing-item p {
+.type-of-housing-item p {
   font-size: 18px;
   line-height: 23px;
 }
 
-.cost_range {
+.cost-range {
   color: #000000;
   font-size: 18px;
   line-height: 24px;
   font-style: 700;
 }
 
-.filter__buttons {
+.filter-buttons {
   display: flex;
   flex-direction: column;
 }
@@ -232,7 +232,7 @@ body {
   justify-content: space-between;
 }
 
-.hotels_search {
+.hotels-search {
   color: #000000;
   font-size: 30px;
   line-height: 36px;
@@ -245,46 +245,46 @@ body {
   color: #333333;
 }
 
-.hotels__list {
+.hotels-list {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
 }
 
-.hotels__item h3 {
+.hotels-item h3 {
   font-size: 24px;
   line-height: 28px;
   font-style: 700;
 }
 
-.hotels__type_price {
+.hotels-type-price {
   color: #333333;
   display: flex;
   justify-content: space-around;
 }
 
-.hotels__buttons {
+.hotels-buttons {
   display: flex;
   justify-content: space-between
 }
 
-.hotels__buttons button {
+.hotels-buttons button {
   color: #ffffff;
 }
 
-.hotels__detailed {
+.hotels-detailed {
   background-color: #756157;
 }
 
-.hotels__favorites {
+.hotels-favorites {
   background-color: #82b3d3;
 }
 
-.hotels__favorites__cheked {
+.hotels-favorites-cheked {
   background-color: #7db54f;
 }
 
-.hotels__raitings {
+.hotels-raitings {
   display: flex;
   justify-content: space-between;
 }
