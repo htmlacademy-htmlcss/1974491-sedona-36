@@ -284,29 +284,54 @@ color: #333333;
   background-color: #000000;
   background-image: url("../img/Subscribe.jpg");
   background-repeat: no-repeat;
+  height: 415px;
+  /* margin: 0 auto; */
+}
+
+.subscribe-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 684px;
+  height: 215px;
+  margin: 96px auto;
+  color: #ffffff;
 }
 
 .subscribe h2 {
-  font-size: 20px;
+  font-size: 30px;
   line-height: 36px;
   font-weight: 700;
-  color: #ffffff;
+  margin-top: 96px;
 }
 
 .subscribe-text {
-  color: #ffffff;
   font-size: 22px;
   line-height: 26px;
+  text-align: center;
+}
+
+.subscribe-form {
+  height: 52px;
 }
 
 .subscribe-button {
   text-transform: uppercase;
   font-size: 20px;
   line-height: 36px;
+  font-weight: 700;
   color: #ffffff;
+  background-color: #82B3D3;
+  padding: 8px 50px;
 }
 
 .page-footer {
+  margin: 0 auto;
+}
+
+.footer-wrapper {
+  margin: 40px 70px 30px;
   display: flex;
   justify-content: space-between;
 }
@@ -314,7 +339,7 @@ color: #333333;
 .footer-social-list {
   list-style-type: none;
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
 }
 
 .contacts-address {
@@ -327,6 +352,19 @@ color: #333333;
   text-decoration: none;
   font-style: normal;
   color: #000000;
+
+}
+
+.vk {
+ padding: 13px 12px;
+}
+
+.telegramm {
+padding: 12px 15px;
+}
+
+.youtube {
+padding: 12px 13px;
 }
 
 .filter {
