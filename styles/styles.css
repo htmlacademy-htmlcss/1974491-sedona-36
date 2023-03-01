@@ -10,6 +10,12 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
+  box-sizing: ;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
 }
 
 .visually-hidden {
@@ -27,16 +33,49 @@ body {
 
 .page-header {
   background-color: #ffffff;
+  display: flex;
+  justify-content: start;
+  height: 64px;
 }
+
+.logo {
+  margin: 0 28px 0 70px;
+}
+
+.navigation {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
 
 .navigation-list {
   list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  width: 380px;
+}
+
+.navigation-user {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  width: 310px;
+  margin-right: 70px;
+  margin-left: 285px;
 }
 
 .navigation-item {
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
+  padding: 16px 20px;
 }
 
 .hero {
@@ -59,13 +98,28 @@ body {
 }
 
 .reasons {
+
   display: flex;
   flex-direction: column;
+  align-items: center;
+  margin: 69px auto;
+}
+
+.reasons-header {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  width: 620px;
+  text-align: center;
+  margin: 0;
 }
 
 .reasons-text {
   font-size: 22px;
   line-height: 26px;
+  width: 654px;
+  text-align: center;
+  margin: 25px auto 0px;
 }
 
 .advantages-items {
