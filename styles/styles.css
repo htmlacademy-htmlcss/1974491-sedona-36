@@ -117,16 +117,31 @@ body {
 .reasons-text {
   font-size: 22px;
   line-height: 26px;
-  width: 654px;
+  width: 651px;
   text-align: center;
-  margin: 25px auto 0px;
+  margin: 25px auto 0;
+}
+
+.advantages {
+  background-color: #82B3D3;
 }
 
 .advantages-items {
   list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
 }
 
-.advantages-item h3 {
+.advantages-item {
+  display: flex;
+  justify-content: space-between;
+  height: 385px;
+}
+
+.advantages-item-card h3 {
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
@@ -135,6 +150,14 @@ body {
 .advantages-item p {
   font-size: 18px;
 }
+
+.advantages-item-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+  margin: 0 auto;
+}
+
 
 
 .slogan-header {
