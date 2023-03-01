@@ -244,8 +244,8 @@ body {
 }
 
 .recomendation-text {
-text-align: center;
-color: #333333;
+  text-align: center;
+  color: #333333;
 }
 
 .interested-wrapper {
@@ -314,6 +314,7 @@ color: #333333;
 
 .subscribe-form {
   height: 52px;
+  background-color: #f2f2f2;
 }
 
 .subscribe-button {
@@ -328,18 +329,22 @@ color: #333333;
 
 .page-footer {
   margin: 0 auto;
-}
-
-.footer-wrapper {
-  margin: 40px 70px 30px;
   display: flex;
   justify-content: space-between;
+  padding: 40px 70px 30px;
+
 }
 
 .footer-social-list {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
+}
+
+.footer-social-item {
+  display: flex;
+  justify-content: center;
 }
 
 .contacts-address {
@@ -356,15 +361,15 @@ color: #333333;
 }
 
 .vk {
- padding: 13px 12px;
+  padding: 13px 12px;
 }
 
 .telegramm {
-padding: 12px 15px;
+  padding: 12px 15px;
 }
 
 .youtube {
-padding: 12px 13px;
+  padding: 12px 13px;
 }
 
 .filter {
