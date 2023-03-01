@@ -238,11 +238,6 @@ body {
   margin: 81px 85px;
 }
 
-
-.recomendation-item-img {
-
-}
-
 .recomendation-name {
   font-size: 24px;
   line-height: 28px;
@@ -251,6 +246,14 @@ body {
 .recomendation-text {
 text-align: center;
 color: #333333;
+}
+
+.interested-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 96px 304px;
 }
 
 .interested h2 {
@@ -262,12 +265,19 @@ color: #333333;
 .interested-text {
   font-size: 22px;
   line-height: 26px;
+  text-align: center;
 }
 
 .intersted-button {
   text-transform: uppercase;
   font-size: 20px;
   line-height: 36px;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 8px 50px;
+  background-color: #756167;
+  border-radius: 4px;
+  color: #ffffff;
 }
 
 .subscribe {
