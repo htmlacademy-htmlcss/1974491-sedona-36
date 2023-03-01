@@ -10,7 +10,7 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
-  box-sizing: ;
+  box-sizing: border-box;
 }
 
 .container {
@@ -184,27 +184,73 @@ body {
 
 
 
+.slogan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 64px auto;
 
+}
 
 .slogan-header {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
+  width: 505px;
+  text-align: center;
+  margin: 0 auto 20px;
 }
 
 .slogan-text {
   font-size: 21px;
   line-height: 26px;
+  width: 490px;
+  margin: 0 auto;
+}
+
+.recomendations {
+
+  background-color: rgba(131, 179, 211, 0.12);
 }
 
 .recomendation-list {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.recondation-name {
+.recomendation-item {
+  max-height: 400px;
+  margin: 0;
+  padding: 0;
+}
+
+.recomendation-item:nth-child(2n) {
+  background-color: #ffffff;
+}
+
+.recomendation-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 81px 85px;
+}
+
+
+.recomendation-item-img {
+
+}
+
+.recomendation-name {
   font-size: 24px;
   line-height: 28px;
+}
+
+.recomendation-text {
+text-align: center;
+color: #333333;
 }
 
 .interested h2 {
