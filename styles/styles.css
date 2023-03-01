@@ -36,13 +36,14 @@ body {
 .navigation-item {
   font-size: 20px;
   line-height: 24px;
-  font-style: 700;
+  font-weight: 700;
 }
 
 .hero {
   width: 1200px;
   height: 485px;
-  background-image: url(../img/index-background.jpg);
+  background-color: #ffffff;
+  background-image: url("../img/index-background.jpg");
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -74,7 +75,7 @@ body {
 .advantages-item h3 {
   font-size: 24px;
   line-height: 28px;
-  font-style: 700;
+  font-weight: 700;
 }
 
 .advantages-item p {
@@ -85,7 +86,7 @@ body {
 .slogan-header {
   font-size: 30px;
   line-height: 36px;
-  font-style: 700;
+  font-weight: 700;
 }
 
 .slogan-text {
@@ -106,7 +107,7 @@ body {
 .interested h2 {
   font-size: 30px;
   line-height: 36px;
-  font-style: 700;
+  font-weight: 700;
 }
 
 .interested-text {
@@ -121,14 +122,15 @@ body {
 }
 
 .subscribe {
-  background-image: url('../img/Subscribe.jpg');
+  background-color: #000000;
+  background-image: url("../img/Subscribe.jpg");
   background-repeat: no-repeat;
 }
 
 .subscribe h2 {
   font-size: 20px;
   line-height: 36px;
-  font-style: 700;
+  font-weight: 700;
   color: #ffffff;
 }
 
@@ -170,14 +172,15 @@ body {
 
 .filter {
   color: #ffffff;
-  background-image: url(../img/filter.jpg);
+  background-color: #000000;
+  background-image: url("../img/filter.jpg");
   background-repeat: no-repeat;
 }
 
 .filter-header {
   font-size: 60px;
   line-height: 78px;
-  font-style: 700;
+  font-weight: 700;
 }
 
 .breadcrumbs {
@@ -197,20 +200,20 @@ body {
 }
 
 .infrastructure-items,
-.type-of-housing-items {
+.type-housing-items {
   list-style-type: none;
 }
 
 .infrastructure h3,
-.type-of-housing h3,
+.type-housing h3,
 .cost h3 {
   font-size: 20px;
   line-height: 24px;
-  font-style: 700;
+  font-weight: 700;
 }
 
 .infrastructure-item p,
-.type-of-housing-item p {
+.type-housing-item p {
   font-size: 18px;
   line-height: 23px;
 }
@@ -219,7 +222,7 @@ body {
   color: #000000;
   font-size: 18px;
   line-height: 24px;
-  font-style: 700;
+  font-weight: 700;
 }
 
 .filter-buttons {
@@ -236,7 +239,7 @@ body {
   color: #000000;
   font-size: 30px;
   line-height: 36px;
-  font-style: 700;
+  font-weight: 700;
 }
 
 .select-control {
@@ -254,7 +257,7 @@ body {
 .hotels-item h3 {
   font-size: 24px;
   line-height: 28px;
-  font-style: 700;
+  font-weight: 700;
 }
 
 .hotels-type-price {
