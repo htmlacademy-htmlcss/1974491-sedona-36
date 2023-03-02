@@ -377,18 +377,32 @@ body {
   background-color: #000000;
   background-image: url("../img/filter.jpg");
   background-repeat: no-repeat;
+  /* margin: 0 auto; */
+  min-height: 412px;
+
+}
+
+.filter-wrapper {
+  margin: 0 70px;
+  padding-top: 35px;
 }
 
 .filter-header {
   font-size: 60px;
   line-height: 78px;
   font-weight: 700;
+  margin: 0;
 }
 
 .breadcrumbs {
   display: flex;
   justify-content: start;
   list-style-type: none;
+  padding: 0;
+}
+
+.breadcrumbs li:not(:last-child) {
+  margin-right: 10px;
 }
 
 .breadcrumbs-item span {
@@ -399,6 +413,7 @@ body {
 .filters {
   display: flex;
   justify-content: space-between;
+  margin: 0 70px;
 }
 
 .infrastructure-items,
@@ -430,6 +445,28 @@ body {
 .filter-buttons {
   display: flex;
   flex-direction: column;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.filter-buttons-accept,
+.filter-buttons-cancel {
+  padding: 8px 50px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.filter-buttons-accept {
+  background-color: #82B3D3;
+  border: none;
+}
+
+.filter-buttons-cancel {
+  background-color: transparent;
 }
 
 .hotels-wrapper {
