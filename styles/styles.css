@@ -542,6 +542,49 @@ body {
   list-style-type: none;
 }
 
+.pagination li:not(:last-child) {
+  margin-right: 8px;
+}
+
+.pagination-item {
+  background-color: #82B3D3;
+  height: 60px;
+  min-width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.pagination-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.pagination-current {
+  background-color: #f2f2f2;
+}
+
+.pagination-current>.pagination-link{
+  color: #000000;
+}
+
+.pagination-dotted {
+  background-color: transparent;
+}
+
+.pagination-dotted>.pagination-link {
+  color: #000000;
+}
+
+.pagination-link {
+  margin: 0 5px;
+}
+
+
 .subscribe-catalog h2,
 .subscribe-catalog p {
   color: #000000;
