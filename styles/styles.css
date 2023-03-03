@@ -385,6 +385,7 @@ button {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 40px 70px 30px;
 }
 
@@ -477,6 +478,15 @@ button {
 .infrastructure-items,
 .type-housing-items {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.infrastructure {
+  margin-right: 70px;
 }
 
 .infrastructure h3,
@@ -485,12 +495,21 @@ button {
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 32px;
 }
 
 .infrastructure-item p,
 .type-housing-item p {
   font-size: 18px;
   line-height: 23px;
+  margin: 0;
+  padding: 0;
+}
+
+.cost {
+  margin-right: 70px;
 }
 
 .cost-range {
@@ -500,6 +519,12 @@ button {
   font-weight: 700;
 }
 
+.start-cost,
+.end-cost {
+  height: 48px;
+  width: 143px;
+}
+
 .filter-buttons {
   display: flex;
   flex-direction: column;
@@ -507,6 +532,11 @@ button {
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
+  margin-top: 56px;
+}
+
+.filter-buttons-accept {
+  margin-bottom: 32px;
 }
 
 .filter-buttons-accept,
@@ -531,6 +561,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-self: baseline;
+  margin: 0 70px;
 }
 
 .hotels-search {
@@ -538,7 +569,6 @@ button {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
-  margin-left: 70px;
 }
 
 .select-control {
@@ -559,6 +589,11 @@ button {
   width: 48px;
   background-color: transparent;
   border-radius: 4px;
+  border: 2px solid #e5e5e5;
+}
+
+.hotels-sorting-checked {
+  border: 2px solid #000000;
 }
 
 
@@ -568,22 +603,19 @@ button {
   color: #333333;
 }
 
-.hotels-search-wrapper {
-  margin: 0 auto;
-}
-
 .hotels-list {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   flex-wrap: wrap;
   gap: 20px;
   list-style-type: none;
   padding: 0;
-  margin-left: 70px;
+  margin: 0 70px;
 }
 
 .hotels-item {
-  max-width: 340px;
+  box-sizing: border-box;
+  width: 340px;
   display: flex;
   flex-direction: column;
   border: 1px solid #e6e6e6;
@@ -596,6 +628,7 @@ button {
   line-height: 28px;
   font-weight: 700;
   margin: 16px 0;
+  min-width: 300px;
 }
 
 .hotels-item-img {
@@ -691,15 +724,16 @@ button {
 
 .pagination-item {
   background-color: #82B3D3;
-  height: 60px;
-  min-width: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-radius: 4px;
 }
 
 .pagination-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  min-width: 60px;
+  flex-grow: 1;
   text-decoration: none;
   color: #ffffff;
   font-size: 20px;

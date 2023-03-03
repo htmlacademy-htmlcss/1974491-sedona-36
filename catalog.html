@@ -4,8 +4,6 @@
     <head>
         <meta charset="utf-8">
         <title>HTML Academy: Седона -> Каталог</title>
-        <link rel="icon" href="favicon.ico">
-        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
         <link rel="stylesheet" href="styles/styles.css">
     </head>
 
@@ -122,7 +120,6 @@
                         <div class="filter-buttons">
                             <button class="filter-buttons-accept" type="button">Применить</button>
                             <button class="filter-buttons-cancel" type="button">СБРОСИТЬ</button>
-
                         </div>
                     </div>
 
@@ -131,7 +128,7 @@
                 <section class="hotels">
                     <h2 class="visually-hidden">Гостиницы</h2>
                     <div class="hotels-wrapper">
-                        <p class="hotels-search">Найдено гостиниц:<span>38</span></p>
+                        <p class="hotels-search">Найдено гостиниц: <span>38</span></p>
                         <select class="select-control" aria-label="Сортировка">
                             <option value="cheap">Сначала дешевые</option>
                             <option value="expensive">Сначала дорогие</option>
@@ -139,7 +136,7 @@
                         </select>
 
                         <div class="hotels-viewing">
-                            <button class="hotels-sorting-table" type="button"><img src="img/icons/table.svg" width="16"
+                            <button class="hotels-sorting-table hotels-sorting-checked" type="button"><img src="img/icons/table.svg" width="16"
                                     height="14" alt="Показать результаты поиска таблицей"></button>
                             <button class="hotels-sorting-card" type="button"><img src="img/icons/card.svg" width="16"
                                     height="14" alt="Показать результаты поиска карточкой"></button>
@@ -148,7 +145,7 @@
                         </div>
                     </div>
 
-                    <div class="hotels-search-wrapper">
+
                         <ul class="hotels-list">
                             <li class="hotels-item">
                                 <a href="#" class="hotels-item-img">
@@ -175,6 +172,7 @@
 
                                 </div>
                             </li>
+
                             <li class="hotels-item">
                                 <a href="#" class="hotels-item-img">
                                     <img src="img/catlog/hotel-2.jpg" width="300" height="212"
@@ -200,6 +198,7 @@
 
                                 </div>
                             </li>
+
                             <li class="hotels-item">
                                 <a href="#" class="hotels-item-img">
                                     <img src="img/catlog/hotel-3.jpg" width="300" height="212"
@@ -225,6 +224,7 @@
 
                                 </div>
                             </li>
+
                             <li class="hotels-item">
                                 <a href="#" class="hotels-item-img">
                                     <img src="img/catlog/hotel-4.jpg" width="300" height="212"
@@ -249,11 +249,14 @@
 
                                 </div>
                             </li>
+
+
+
                         </ul>
 
                         <ul class="pagination">
                             <li class="pagination-item pagination-current">
-                                <a class="pagination-link ">1</a>
+                                <a class="pagination-link" href="#">1</a>
                             </li>
                             <li class="pagination-item">
                                 <a class="pagination-link" href="#">2</a>
@@ -275,7 +278,7 @@
 
 
 
-                    </div>
+
 
                 </section>
 
@@ -295,7 +298,6 @@
             </main>
 
             <footer class="page-footer">
-
 
                 <section class="footer-social">
                     <h2 class="visually-hidden">Социальные сети</h2>
@@ -328,6 +330,8 @@
                                 </svg>
                             </a>
                         </li>
+
+
                     </ul>
                 </section>
 
