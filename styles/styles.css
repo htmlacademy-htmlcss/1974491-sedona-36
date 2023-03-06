@@ -126,7 +126,22 @@ button {
   border-radius: 4px;
   color: #ffffff;
   text-transform: uppercase;
-  /* margin-left: 20px; */
+}
+
+.user-links .favourites-number {
+  background-color: #7DB54F;
+  margin: 0;
+  padding: 5px;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 10px;
+  line-height: 10px;
+  position: relative;
+  top: -40px;
+  right: 28px;
 }
 
 .hero {
@@ -531,6 +546,18 @@ button {
 .end-cost {
   height: 48px;
   width: 143px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.start-cost+span,
+.end-cost+span {
+  position: relative;
+  left: -30px;
+  font-size: 18px;
+  line-height: 24px;
+  opacity: 0.6;
 }
 
 .filter-buttons {
