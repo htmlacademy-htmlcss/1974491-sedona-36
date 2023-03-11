@@ -30,6 +30,7 @@ body {
 }
 
 button {
+  box-sizing: border-box;
   border-style: none;
 }
 
@@ -129,6 +130,18 @@ button {
   text-transform: uppercase;
 }
 
+.user-links span:hover,
+.user-links span:focus {
+  background-color: #615048;
+}
+
+.user-links span:active {
+  background-color: #756157;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+
+
 .user-links .favourites-number {
   background-color: #7DB54F;
   margin: 0;
@@ -143,6 +156,10 @@ button {
   position: relative;
   top: -40px;
   right: 28px;
+}
+
+.user-links:hover {
+  color: #82b3d3;
 }
 
 .hero {
@@ -351,7 +368,7 @@ button {
   font-weight: 700;
   text-decoration: none;
   padding: 8px 50px;
-  background-color: #756167;
+  background-color: #756157;
   border-radius: 4px;
   color: #ffffff;
 }
@@ -449,9 +466,27 @@ button {
   color: #82b3d3;
 }
 
+.vk:hover,
+.vk:focus {
+ color: #68a2ca;
+}
+
+.vk:active {
+  color: rgba(104,162,202, 0.3)
+}
+
 .telegramm {
   padding: 12px 15px;
   color: #82b3d3;
+}
+
+.telegramm:hover,
+.telegramm:focus {
+ color: #68a2ca;
+}
+
+.telegramm:active {
+  color: rgba(104,162,202, 0.3)
 }
 
 .youtube {
@@ -459,9 +494,37 @@ button {
   color: #82b3d3;
 }
 
+.youtube:hover,
+.youtube:focus {
+  color: #68a2ca;
+}
+
+.youtube:active {
+  color: rgba(104,162,202, 0.3)
+}
+
 .links-svg {
   display: block;
 }
+
+.contacts-address a:hover,
+.contacts-address a:focus {
+  color: #756157
+}
+
+.contacts-address a:active {
+  color: rgba(117,97,87, 0.3);
+}
+
+.logo-html-academy:hover,
+.logo-html-academy:focus {
+  color: #756157;
+}
+
+.logo-html-academy:active {
+  color: rgba(117,97,87, 0.3);
+}
+
 
 .filter {
   color: #ffffff;
@@ -560,8 +623,8 @@ button {
   font-weight: 700;
 }
 
-.start-cost+span,
-.end-cost+span {
+.start-cost + span,
+.end-cost + span {
   position: relative;
   left: -30px;
   font-size: 18px;
@@ -583,6 +646,7 @@ button {
   margin-bottom: 32px;
 }
 
+
 .filter-buttons-accept,
 .filter-buttons-cancel {
   padding: 8px 50px;
@@ -597,9 +661,36 @@ button {
   border: none;
 }
 
+.filter-buttons-accept:hover,
+.filter-buttons-accept:focus {
+  background-color: #68a2ca;
+}
+
+.filter-buttons-accept:active {
+  background-color: #82B3D3;
+  color: rgba(255, 255, 255, 0.3)
+}
+
 .filter-buttons-cancel {
   background-color: transparent;
 }
+
+.filter-buttons-cancel:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.filter-buttons-cancel:focus {
+  box-sizing: border-box;
+  color: #ffffff;
+  border: 3px solid #82b3d3;
+  border-radius: 4px;
+}
+
+.filter-buttons-cancel:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+
 
 .hotels-wrapper {
   display: flex;
@@ -689,6 +780,7 @@ button {
   display: flex;
   justify-content: space-between;
 }
+
 .hotels-type-price p {
   margin: 0;
 }
@@ -699,7 +791,7 @@ button {
   gap: 30px;
 }
 
-.hotels-buttons p{
+.hotels-buttons p {
   color: #ffffff;
   margin-bottom: 16px;
 }
@@ -744,7 +836,7 @@ button {
   gap: 30px;
 }
 
-.hotels-raitings>*{
+.hotels-raitings > * {
   margin: 0;
 }
 
@@ -782,7 +874,7 @@ button {
   align-items: center;
   height: 60px;
   min-width: 60px;
-  flex-grow: 1;
+
   text-decoration: none;
   color: #ffffff;
   font-size: 20px;
@@ -792,10 +884,6 @@ button {
 
 .pagination-current {
   background-color: #f2f2f2;
-}
-
-.pagination-current > .pagination-link {
-  color: #000000;
 }
 
 .pagination-dotted {
@@ -809,6 +897,31 @@ button {
 .pagination-link {
   margin: 0 5 px;
 }
+
+.pagination-link:hover,
+.pagination-link:focus {
+  background-color: #68a2ca;
+  border-radius: 4px;
+}
+
+.pagination-link:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #82b3d3;
+  border-radius: 4px;
+}
+
+.pagination-current > .pagination-link {
+  color: #000000;
+}
+
+.pagination-current > .pagination-link:hover,
+.pagination-current > .pagination-link:focus,
+.pagination-current > .pagination-link:active {
+  background-color: #f2f2f2;
+  color: #000000;
+  border-radius: 4px;
+}
+
 
 
 .subscribe-catalog h2,
