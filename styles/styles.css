@@ -111,9 +111,10 @@ button {
 
 .user-links {
   text-decoration: none;
+  color: #000000;
 }
 
-.user-links img {
+.user-links svg {
   padding: 22px 12px;
 }
 
@@ -306,6 +307,11 @@ button {
   flex-direction: column;
   align-items: center;
   margin: 81px 85px;
+  color: #82b3d3;
+}
+
+.recomendation-card h3 {
+  color: #000000;
 }
 
 .recomendation-name {
@@ -440,14 +446,17 @@ button {
 
 .vk {
   padding: 13px 12px;
+  color: #82b3d3;
 }
 
 .telegramm {
   padding: 12px 15px;
+  color: #82b3d3;
 }
 
 .youtube {
   padding: 12px 13px;
+  color: #82b3d3;
 }
 
 .links-svg {
