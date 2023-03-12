@@ -95,7 +95,7 @@ input[type=number] {
   align-items: center;
   padding: 0;
   margin: 0;
-  /* min-width: 380px; */
+
 }
 
 .navigation-links {
@@ -105,7 +105,7 @@ input[type=number] {
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .navigation-user {
@@ -279,6 +279,7 @@ input[type=number] {
   height: 56px;
   margin: 62px auto;
   position: relative;
+  text-transform: uppercase;
 }
 
 .advantages-item-card-heading::after {
@@ -424,6 +425,15 @@ input[type=number] {
   background-color: #756157;
   border-radius: 4px;
   color: #ffffff;
+}
+
+.intersted-button:hover {
+  background-color: #615048;
+}
+
+.intersted-button:active {
+  background-color: #756157;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .subscribe {
