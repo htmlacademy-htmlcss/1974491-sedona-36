@@ -564,6 +564,16 @@ button {
   line-height: 21px;
 }
 
+.breadcrumbs-item:hover {
+  opacity: 0.6;
+}
+
+.breadcrumbs-item:active {
+  opacity: 0.3;
+}
+
+
+
 .filters {
   display: flex;
   justify-content: space-between;
@@ -684,10 +694,17 @@ button {
   color: #ffffff;
   border: 3px solid #82b3d3;
   border-radius: 4px;
+  outline: none;
 }
 
 .filter-buttons-cancel:active {
   color: rgba(255, 255, 255, 0.3);
+}
+
+.filter-buttons-cancel:disabled {
+  color: #ffffff;
+  border: none;
+  opacity: 0.1;
 }
 
 
@@ -708,10 +725,43 @@ button {
 
 .select-control {
   height: 48px;
+  width: 292px;
   align-self: center;
   background-color: transparent;
+  border: 2px solid #e5e5e5;
   border-radius: 4px;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  appearance: none;
+  padding: 12px 20px;
+  background-image: url("../img/icons/bird.svg");
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  padding-right: 40px;
 }
+
+.select-control:hover {
+  border-color: #68a2ca;
+}
+
+.select-control:focus {
+  border-color: #3f5e72;
+  outline: none;
+}
+
+.select-control:active {
+  border-color: rgba(63,94,114,1);
+  color: rgba(51, 51, 51, 1);
+}
+
+.select-control:disabled {
+  color: #000000;
+  border: 2px solid #000000;
+  opacity: 0.3;
+}
+
 
 .hotels-viewing {
   align-self: center;
@@ -725,6 +775,24 @@ button {
   background-color: transparent;
   border-radius: 4px;
   border: 2px solid #e5e5e5;
+}
+
+.hotels-sorting-table:hover,
+.hotels-sorting-card:hover,
+.hotels-sorting-listing:hover {
+  border-color: #000000;
+}
+
+.hotels-sorting-table:focus,
+.hotels-sorting-card:focus,
+.hotels-sorting-listing:focus {
+  border-color: #68a2ca;
+}
+
+.hotels-sorting-table:active,
+.hotels-sorting-card:active,
+.hotels-sorting-listing:active {
+  border-color: #000000;
 }
 
 .hotels-sorting-checked {
