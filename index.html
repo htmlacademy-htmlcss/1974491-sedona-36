@@ -23,7 +23,7 @@
         <nav class="navigation">
           <ul class="navigation-list">
             <li class="navigation-item">
-              <a class="navigation-links" href="index.html">Главная</a>
+              <a class="navigation-links navigation-links-current" href="index.html">Главная</a>
             </li>
             <li class="navigation-item">
               <a class="navigation-links" href="#">О седоне</a>
@@ -36,12 +36,13 @@
           <ul class=" navigation-user">
             <li class="navigation-item">
               <a class="user-links" href="#">
-                <img src="img/icons/icons-search.svg" width="20" height="20" alt="Поиск">
+                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" aria-label="Поиск"><path  d="m18.5 17.008-3.7-3.68c1-1.292 1.7-2.983 1.7-4.872C16.5 4.08 12.9.5 8.5.5s-8 3.68-8 8.055c0 4.376 3.6 7.956 8 7.956 1.8 0 3.5-.597 4.9-1.69l3.7 3.679 1.4-1.492Zm-10-2.486c-3.3 0-6-2.685-6-5.967 0-3.282 2.7-5.967 6-5.967s6 2.685 6 5.967c0 3.282-2.7 5.967-6 5.967Z"/></svg>
               </a>
             </li>
             <li class="navigation-item">
               <a class="user-links" href="#">
-                <img src="img/icons/icons-heart.svg" width="20" height="20" alt="Избранное">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" fill="currentColor" aria-label="Избранное"><path  d="M8.9 17a1 1 0 0 1-.8-.4l-7-7.9A5.4 5.4 0 0 1 5.5 0C6.8 0 8 .5 9 1.3a5.5 5.5 0 0 1 9 4.1c0 1.3-.5 2.5-1.3 3.4l-7 7.9c-.2.2-.4.3-.8.3Zm-6-9.5L9 14.4l6.2-7c.5-.5.7-1.2.7-2 0-1.8-1.5-3.3-3.3-3.3-1 0-2 .5-2.7 1.3-.3.3-.6.4-.9.4-.3 0-.6-.2-.8-.4a3.7 3.7 0 0 0-2.7-1.3 3.3 3.3 0 0 0-3.3 3.3c-.1.9.3 1.6.7 2.1-.1 0-.1 0 0 0Z"/></svg>
+                <span class="favourites-number">12</span>
               </a>
             </li>
             <li class="navigation-item">
@@ -77,7 +78,7 @@
           <ul class="advantages-items">
             <li class="advantages-item advantages-item-wide">
               <div class="advantages-item-card">
-                <h3>Настоящий городок</h3>
+                <h3 class="advantages-item-card-heading">Настоящий городок</h3>
                 <p class="advantages-item-text">
                   Седона — не аттракцион для туристов, там течёт своя жизнь
                 </p>
@@ -90,7 +91,7 @@
 
             <li class="advantages-item ">
               <div class="advantages-item-card">
-                <h3>Небольшая площадь</h3>
+                <h3 class="advantages-item-card-heading">Небольшая площадь</h3>
                 <p class="advantages-item-text">
                   Все достопримечательности находятся очень близко
                 </p>
@@ -100,7 +101,7 @@
 
             <li class="advantages-item ">
               <div class="advantages-item-card">
-                <h3>Красивая дорога</h3>
+                <h3 class="advantages-item-card-heading">Красивая дорога</h3>
                 <p class="advantages-item-text">
                   Ехать в Седону из Лас-Вегаса совсем не скучно!
                 </p>
@@ -110,7 +111,7 @@
 
             <li class="advantages-item ">
               <div class="advantages-item-card">
-                <h3>Мало туристов</h3>
+                <h3 class="advantages-item-card-heading">Мало туристов</h3>
                 <p class="advantages-item-text">
                   Большинство едет в Гранд Каньон и толпится там
                 </p>
@@ -124,7 +125,7 @@
                 <img src="img/photo-2.jpg" width="800" height="385" alt="Красивые горный пейзаж">
               </div>
               <div class="advantages-item-card">
-                <h3>Там есть мост дьявола</h3>
+                <h3 class="advantages-item-card-heading">Там есть мост дьявола</h3>
                 <p class="advantages-item-text">
                   Да, по нему можно пройти! Если вы осмелитесь, разумеется
                 </p>
@@ -145,7 +146,8 @@
           <ul class="recomendation-list">
             <li class="recomendation-item">
               <div class="recomendation-card">
-                <img class="recomendation-item-img" src="img/home.svg" alt="Жильё" width="75" height="72">
+                <svg xmlns="http://www.w3.org/2000/svg" width="84" height="80" fill="currentColor" viewBox="0 0 84 80"><g filter="url(#a)" aria-label="Жильё"><path d="M34.1 65h16V41.2h-16V65Zm3-20.9h10v18h-10v-18Z"/><path d="m77.4 39.3 2.1-2.1-10-9.9V0H55.7v13.6L41.9 0 4.5 37.2l2.1 2.1 7.8-7.8v37.6h-4V72h64.2v-2.9h-5.1V31.5l7.9 7.8ZM66.5 69.1H17.4V28.5L41.9 4.1l24.6 24.4v40.6Zm0-44.7-7.9-7.9V2.9h8v21.5Z"/><path d="M34.3 27.1c0 4.3 3.5 7.7 7.8 7.7s7.8-3.5 7.8-7.7c0-4.3-3.5-7.7-7.8-7.7a7.7 7.7 0 0 0-7.8 7.7Zm7.9-5a5 5 0 0 1 5 4.9 5 5 0 0 1-5 4.9 5 5 0 0 1-5-4.9 5 5 0 0 1 5-4.9ZM24.5 41.2h-3v3.9h3v-3.9ZM30.4 41.2h-3v3.9h3v-3.9ZM24.5 47.2h-3v3.9h3v-3.9ZM30.4 47.2h-3v3.9h3v-3.9ZM56.5 41.2h-3v3.9h3v-3.9ZM62.4 41.2h-3v3.9h3v-3.9ZM56.5 47.2h-3v3.9h3v-3.9ZM62.4 47.2h-3v3.9h3v-3.9Z"/></g><defs><filter id="a" width="83" height="80" x=".5" y="0" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dy="4"/><feGaussianBlur stdDeviation="2"/><feComposite in2="hardAlpha" operator="out"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/><feBlend in2="BackgroundImageFix" result="effect1_dropShadow_112_133"/><feBlend in="SourceGraphic" in2="effect1_dropShadow_112_133" result="shape"/></filter></defs></svg>
+
                 <h3 class="recomendation-name">Жильё</h3>
                 <p class="recomendation-text">
                   Рекомендуем пожить в настоящем мотеле, eвсё как в кино!
@@ -156,7 +158,8 @@
             </li>
             <li class="recomendation-item">
               <div class="recomendation-card">
-                <img class="recomendation-item-img" src="img/food.svg" alt="Еда" width="75" height="72">
+                <svg xmlns="http://www.w3.org/2000/svg" width="75" height="70" fill="currentColor" viewBox="0 0 75 70" aria-label="Еда"><path  d="M70.6 46.7h-66A4.2 4.2 0 0 0 .5 51v3.5c0 2.4 1.9 4.3 4.1 4.3h1v1.1A10 10 0 0 0 15 70h44.7c5.4 0 9.7-4.5 9.7-10.1v-1.1h.9c2.3 0 4-1.9 4-4.3V51a4 4 0 0 0-3.8-4.3Zm-4 13.2c0 3.9-3 7-6.7 7H15.1a7 7 0 0 1-6.7-7v-1.1h58.3v1.1Zm5.2-5.4c0 .7-.6 1.3-1.2 1.3h-66c-.8 0-1.3-.6-1.3-1.3V51c0-.7.6-1.3 1.2-1.3h66c.7 0 1.2.6 1.2 1.3v3.5ZM16.1 38.4l5.5 4.1 5.3-4.1 5.3 4.1 5.3-4.1 5.4 4.1 5.3-4.1 5.3 4.1 5.4-4.1 5.4 4.1 6.2-4.7-1.7-2.5-4.5 3.4-5.4-4.1-5.4 4.1-5.3-4.1-5.3 4.1-5.4-4.1-5.3 4.1-5.3-4.1-5.3 4.1-5.5-4.1-5.3 4.1-4.5-3.4-1.7 2.5 6.2 4.7 5.3-4.1ZM8.5 31.5h61V28.4C69 12.7 54.9 0 37.6 0S6.3 12.7 5.6 28.5v1.2l.1 1.8h3ZM37.5 3c15.7 0 28.6 11.3 29.2 25.5H8.5C9.1 14.4 22 3 37.5 3Z"/><path d="M37.6 17.3a2 2 0 0 0 1.9-2 2 2 0 0 0-2-2 2 2 0 0 0-1.8 2c0 1.1.8 2 1.9 2ZM29.8 12.2a2 2 0 0 0 1.9-2 2 2 0 0 0-2-2 2 2 0 0 0-1.8 2c0 1.1.8 2 1.9 2ZM45.3 12.2a2 2 0 0 0 2-2 2 2 0 0 0-2-2 2 2 0 0 0-1.9 2c0 1.1.9 2 2 2Z"/></svg>
+
                 <h3 class="recomendation-name">Еда</h3>
                 <p class="recomendation-text">
                   Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!
@@ -167,7 +170,7 @@
             </li>
             <li class="recomendation-item">
               <div class="recomendation-card">
-                <img class="recomendation-item-img" src="img/souvenirs.svg" alt="Сувениры" width="75" height="72">
+                <svg xmlns="http://www.w3.org/2000/svg" width="65" height="76" fill="currentColor" viewBox="0 0 65 76" aria-label="Сувениры"><path  d="M61.6 22.5H36.8c13.8-7 14.9-11.3 14.4-13.7-1.2-4-5.7-7-10-5.5-5.6 2.2-7.1 10.5-8.6 16.5-2-6.1-3.8-13.8-8.2-17.8a7.3 7.3 0 0 0-5.8-2c-4 .4-9.8 5.5-7.5 11 2.3 5.5 9.7 8.9 14.6 11.6H3.4a2.9 2.9 0 0 0-2.9 2.9v11.3c0 1.6 1.3 2.9 2.9 2.9h.3V76h57.8V39.6h.1c1.6 0 2.9-1.3 2.9-3V25.5c0-1.6-1.3-3-2.9-3ZM42.9 5.9c2.1-.3 5 1.3 5.3 3.2.4 2.8-3.4 5.3-5.1 6.4-2.5 1.7-4.9 2.6-7.3 4 .9-3.6 2.5-13 7.1-13.6ZM20 15.9c-2.2-1.5-6.5-4.4-6.4-7.8.1-3.7 5.7-6.7 8.8-4 3.9 3.5 5.7 11.2 7.1 16.7-3.2-1.5-6.3-2.8-9.5-5ZM26 73H6.6V39.6H26V73Zm0-36.5H3.5v-11H26v11Zm10.2 0V73H29V25.6h7.2v10.9ZM58.5 73H39.1V39.6h19.4V73Zm2.9-36.5H39.1v-11h22.3v11Z"/></svg>
                 <h3 class="recomendation-name">Сувениры</h3>
                 <p class="recomendation-text">
                   Не только китайского, но и настоящего местного производства!
@@ -214,9 +217,9 @@
             <ul class="footer-social-list">
               <li class="footer-social-item">
                 <a class="links vk" href="https://vk.com/htmlacademy">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="15" fill="none" role="img"
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="15" fill="currentColor" role="img"
                     aria-label="наш ВКонтакте">
-                    <path fill="#83B3D3" fill-rule="evenodd"
+                    <path fill-rule="evenodd"
                       d="M24.12 1.8c.16-.54 0-.94-.8-.94H20.7c-.67 0-.98.34-1.15.73 0 0-1.33 3.2-3.22 5.27-.61.6-.9.8-1.23.8-.16 0-.41-.2-.41-.75v-5.1c0-.66-.19-.95-.74-.95H9.82c-.42 0-.67.3-.67.59 0 .62.95.76 1.04 2.51v3.8c0 .83-.15.98-.48.98-.9 0-3.06-3.2-4.34-6.88-.25-.72-.5-1-1.18-1H1.57c-.75 0-.9.34-.9.73 0 .68.89 4.07 4.14 8.55 2.17 3.06 5.23 4.72 8 4.72 1.68 0 1.88-.37 1.88-1v-2.32c0-.74.16-.88.7-.88.38 0 1.05.19 2.6 1.66 1.79 1.75 2.08 2.54 3.08 2.54h2.63c.75 0 1.12-.37.9-1.1-.23-.72-1.08-1.77-2.2-3.02-.62-.71-1.54-1.48-1.82-1.86-.39-.5-.28-.71 0-1.15 0 0 3.2-4.42 3.54-5.93Z"
                       clip-rule="evenodd" />
                   </svg>
@@ -224,18 +227,18 @@
               </li>
               <li class="footer-social-item">
                 <a class="links telegramm" href="https://t.me/htmlacademy">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" fill="none" role="img"
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" fill="currentColor" role="img"
                     aria-label="наш Телеграмм">
-                    <path fill="#83B3D3"
+                    <path
                       d="M16.79.96.84 7.1c-1.09.44-1.08 1.05-.2 1.32l4.1 1.28 9.47-5.98c.44-.27.85-.13.52.17l-7.68 6.93-.28 4.22c.41 0 .6-.2.83-.41l1.99-1.94 4.13 3.06c.77.42 1.31.2 1.5-.71l2.72-12.8c.28-1.1-.43-1.61-1.16-1.28Z" />
                   </svg>
                 </a>
               </li>
               <li class="footer-social-item">
                 <a class="links youtube" href="https://www.youtube.com/user/htmlacademyru">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="23" height="18" fill="none" role="img"
+                  <svg xmlns="http://www.w3.org/2000/svg" width="23" height="18" fill="currentColor" role="img"
                     aria-label="наш Ютуб">
-                    <path fill="#83B3D3"
+                    <path
                       d="M18.94.36H3.51C1.65.36.33 1.95.33 3.76v10.09c0 1.91 1.32 3.5 3.18 3.5h15.65c1.64 0 3.17-1.59 3.17-3.4V3.76c-.22-1.8-1.53-3.4-3.39-3.4ZM7.99 12.89V4.82l7.34 4.04-7.34 4.03Z" />
                   </svg>
                 </a>
@@ -252,11 +255,8 @@
 
           <section class="footer-logo-htmlacademy">
             <h2 class="visually-hidden">Ссылка на сайт HTML Академии</h2>
-            <a class="links" href="https://htmlacademy.ru">
-              <svg class="links-svg" xmlns="http://www.w3.org/2000/svg" width="115" height="34" fill="none" role="img"
-                aria-label="логотип HTML Академии">
-                <path fill="#000"
-                  d="M0 13.3v2.6h2.5v-2.6H0ZM11.6 4.9c-1.6 0-2.8.7-3.6 1.7h-.1V.4h-2v15.5h2v-5.3C7.9 8.5 9.2 7 11.2 7c1.8 0 2.9 1.4 2.9 3.2v5.7h2V9.8c.1-3-1.8-5-4.5-5ZM26.6 5.2h-4.8V1.5h-2v3.8h-1.9v2h1.9v6c0 1.7 1 2.7 2.7 2.7h4.1v-2h-3.7c-.7 0-1.1-.4-1.1-1.1V7.2h4.8v-2ZM41.1 5c-1.6 0-2.9.8-3.5 2h-.1a3.7 3.7 0 0 0-3.4-2c-1.4 0-2.5.8-3.1 1.8h-.1V5.2H29v10.6h2v-5.4c0-2 1-3.5 2.6-3.5 1.5 0 2.4 1 2.4 2.6v6.3h2v-5.6c0-2.4 1.4-3.3 2.6-3.3 1.5 0 2.4 1 2.4 2.6v6.3h2V9.3c.1-2.5-1.4-4.3-3.9-4.3ZM47.8 13c0 1.8 1 2.8 2.8 2.8h2v-2h-1.7c-.7 0-1.1-.4-1.1-1.1V.4h-2V13ZM28.9 20a4.9 4.9 0 0 0-3.9-1.7c-3.1 0-5.4 2.3-5.4 5.6s2.3 5.6 5.4 5.6c1.8 0 3-.8 3.8-2h.1v1.7h2V18.6h-2V20Zm-3.6 7.5a3.5 3.5 0 0 1-3.6-3.6c0-2 1.4-3.6 3.6-3.6s3.6 1.6 3.6 3.6c0 1.9-1.4 3.6-3.6 3.6ZM44.2 22.4c-.5-2.4-2.6-4.1-5.4-4.1a5.4 5.4 0 0 0-5.6 5.6c0 3 2.2 5.6 5.6 5.6 2.8 0 4.9-1.8 5.4-4.2h-2.1a3.4 3.4 0 0 1-3.3 2.3 3.5 3.5 0 0 1-3.6-3.6c0-2 1.4-3.6 3.6-3.6 1.6 0 2.8 1 3.3 2.2h2.1v-.2ZM55.1 20a4.9 4.9 0 0 0-3.9-1.7c-3.1 0-5.4 2.3-5.4 5.6s2.3 5.6 5.4 5.6c1.8 0 3-.8 3.8-2h.1v1.7h2V18.6h-2V20Zm-3.6 7.5a3.5 3.5 0 0 1-3.6-3.6c0-2 1.4-3.6 3.6-3.6s3.6 1.6 3.6 3.6c0 1.9-1.5 3.6-3.6 3.6ZM68.7 20.2a5 5 0 0 0-3.9-2c-3.1 0-5.4 2.4-5.4 5.7 0 3.3 2.2 5.6 5.4 5.6 1.7 0 3-.8 3.8-1.8h.1v1.5h2V13.8h-2v6.4Zm-3.6 7.3a3.5 3.5 0 0 1-3.6-3.6c0-2 1.4-3.6 3.6-3.6s3.6 1.6 3.6 3.6c-.1 2-1.5 3.6-3.6 3.6ZM78.3 18.3a5.4 5.4 0 0 0-5.5 5.6c0 3 2.1 5.6 5.5 5.6 2.5 0 4.5-1.3 5.2-3.6h-2.1c-.5 1-1.6 1.6-3 1.6-1.9 0-3.3-1.3-3.4-3h8.8c.2-3.5-2-6.2-5.5-6.2Zm0 1.9c1.7 0 3 1 3.3 2.6h-6.5a3.2 3.2 0 0 1 3.2-2.6ZM98.2 18.3a4 4 0 0 0-3.6 2h-.1c-.6-1.2-1.8-2-3.4-2-1.4 0-2.5.7-3.1 1.8v-1.5h-1.9v10.6h2v-5.4c0-2 1-3.4 2.6-3.5 1.5 0 2.4 1 2.4 2.6v6.3h2v-5.6c0-2.4 1.4-3.3 2.6-3.3 1.5 0 2.4 1 2.4 2.6v6.3h2v-6.5c.1-2.6-1.4-4.4-3.9-4.4ZM109.4 27.4l-3.6-9h-2.2l4.8 11.7c-.3.9-.7 1.2-1.7 1.2h-2.5v2h2.5c1.8 0 2.8-.8 3.5-2.6l4.7-12.2h-2.1l-3.4 8.9Z" />
+            <a class="links logo-html-academy" href="https://htmlacademy.ru">
+              <svg xmlns="http://www.w3.org/2000/svg" width="115" height="34" fill="currentColor" viewBox="0 0 115 34" aria-label="Логотип HTML Академии"><path d="M0 13.3v2.6h2.5v-2.6H0ZM11.6 4.9c-1.6 0-2.8.7-3.6 1.7h-.1V.4h-2v15.5h2v-5.3C7.9 8.5 9.2 7 11.2 7c1.8 0 2.9 1.4 2.9 3.2v5.7h2V9.8c.1-3-1.8-5-4.5-5ZM26.6 5.2h-4.8V1.5h-2v3.8h-1.9v2h1.9v6c0 1.7 1 2.7 2.7 2.7h4.1v-2h-3.7c-.7 0-1.1-.4-1.1-1.1V7.2h4.8v-2ZM41.1 5c-1.6 0-2.9.8-3.5 2h-.1a3.7 3.7 0 0 0-3.4-2c-1.4 0-2.5.8-3.1 1.8h-.1V5.2H29v10.6h2v-5.4c0-2 1-3.5 2.6-3.5 1.5 0 2.4 1 2.4 2.6v6.3h2v-5.6c0-2.4 1.4-3.3 2.6-3.3 1.5 0 2.4 1 2.4 2.6v6.3h2V9.3c.1-2.5-1.4-4.3-3.9-4.3ZM47.8 13c0 1.8 1 2.8 2.8 2.8h2v-2h-1.7c-.7 0-1.1-.4-1.1-1.1V.4h-2V13ZM28.9 20a4.9 4.9 0 0 0-3.9-1.7c-3.1 0-5.4 2.3-5.4 5.6s2.3 5.6 5.4 5.6c1.8 0 3-.8 3.8-2h.1v1.7h2V18.6h-2V20Zm-3.6 7.5a3.5 3.5 0 0 1-3.6-3.6c0-2 1.4-3.6 3.6-3.6s3.6 1.6 3.6 3.6c0 1.9-1.4 3.6-3.6 3.6ZM44.2 22.4c-.5-2.4-2.6-4.1-5.4-4.1a5.4 5.4 0 0 0-5.6 5.6c0 3 2.2 5.6 5.6 5.6 2.8 0 4.9-1.8 5.4-4.2h-2.1a3.4 3.4 0 0 1-3.3 2.3 3.5 3.5 0 0 1-3.6-3.6c0-2 1.4-3.6 3.6-3.6 1.6 0 2.8 1 3.3 2.2h2.1v-.2ZM55.1 20a4.9 4.9 0 0 0-3.9-1.7c-3.1 0-5.4 2.3-5.4 5.6s2.3 5.6 5.4 5.6c1.8 0 3-.8 3.8-2h.1v1.7h2V18.6h-2V20Zm-3.6 7.5a3.5 3.5 0 0 1-3.6-3.6c0-2 1.4-3.6 3.6-3.6s3.6 1.6 3.6 3.6c0 1.9-1.5 3.6-3.6 3.6ZM68.7 20.2a5 5 0 0 0-3.9-2c-3.1 0-5.4 2.4-5.4 5.7 0 3.3 2.2 5.6 5.4 5.6 1.7 0 3-.8 3.8-1.8h.1v1.5h2V13.8h-2v6.4Zm-3.6 7.3a3.5 3.5 0 0 1-3.6-3.6c0-2 1.4-3.6 3.6-3.6s3.6 1.6 3.6 3.6c-.1 2-1.5 3.6-3.6 3.6ZM78.3 18.3a5.4 5.4 0 0 0-5.5 5.6c0 3 2.1 5.6 5.5 5.6 2.5 0 4.5-1.3 5.2-3.6h-2.1c-.5 1-1.6 1.6-3 1.6-1.9 0-3.3-1.3-3.4-3h8.8c.2-3.5-2-6.2-5.5-6.2Zm0 1.9c1.7 0 3 1 3.3 2.6h-6.5a3.2 3.2 0 0 1 3.2-2.6ZM98.2 18.3a4 4 0 0 0-3.6 2h-.1c-.6-1.2-1.8-2-3.4-2-1.4 0-2.5.7-3.1 1.8v-1.5h-1.9v10.6h2v-5.4c0-2 1-3.4 2.6-3.5 1.5 0 2.4 1 2.4 2.6v6.3h2v-5.6c0-2.4 1.4-3.3 2.6-3.3 1.5 0 2.4 1 2.4 2.6v6.3h2v-6.5c.1-2.6-1.4-4.4-3.9-4.4ZM109.4 27.4l-3.6-9h-2.2l4.8 11.7c-.3.9-.7 1.2-1.7 1.2h-2.5v2h2.5c1.8 0 2.8-.8 3.5-2.6l4.7-12.2h-2.1l-3.4 8.9Z"/></svg>
               </svg>
             </a>
           </section>
