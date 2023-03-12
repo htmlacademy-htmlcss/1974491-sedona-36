@@ -122,7 +122,7 @@ button {
   left: 16px;
   bottom: 1px;
   height: 2px;
-  background-color: #756257;
+  background-color: #756157;
 
 }
 
@@ -848,10 +848,7 @@ button {
 }
 
 .hotels-list {
-  /* display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  gap: 20px; */
+
 
   display: grid;
   grid-template-columns: repeat(3, 340px);
@@ -915,6 +912,16 @@ button {
   text-transform: uppercase;
 }
 
+.hotels-detailed:hover,
+.hotels-detailed:focus {
+  background-color: #615048;
+}
+
+.hotels-detailed:active {
+  background-color: #756157;
+  color:rgba(255, 255, 255, 0.3)
+}
+
 .hotels-favorites {
   background-color: #82b3d3;
   border-radius: 4px;
@@ -927,6 +934,16 @@ button {
   text-transform: uppercase;
 }
 
+.hotels-favorites:hover,
+.hotels-favorites:focus {
+  background-color: #68a2ca;
+}
+
+hotels-favorites:active {
+  background-color: #82b3d3;
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .hotels-favorites-cheked {
   background-color: #7db54f;
   border-radius: 4px;
@@ -937,6 +954,16 @@ button {
   line-height: 20px;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.hotels-favorites-cheked:hover,
+.hotels-favorites-cheked:focus {
+  background-color: #6c9e42;
+}
+
+.hotels-favorites-cheked:active {
+  background-color: #7db54f;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .hotels-raitings {
@@ -966,6 +993,9 @@ button {
   display: flex;
   justify-content: start;
   list-style-type: none;
+  padding: 0;
+  margin: 80px 0 0 70px;
+  position: relative;
 }
 
 .pagination li:not(:last-child) {
@@ -1029,6 +1059,20 @@ button {
   background-color: #f2f2f2;
   color: #000000;
   border-radius: 4px;
+}
+
+.pagination::before {
+  position: absolute;
+  content: "";
+  width: auto;
+  height: 1px;
+  background-color: rgba(230, 230, 230, 1);
+  right: 0;
+  top: -40px;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  margin-bottom: 97px;
 }
 
 
