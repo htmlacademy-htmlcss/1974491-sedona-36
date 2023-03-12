@@ -462,6 +462,15 @@ button {
   padding: 8px 50px;
 }
 
+.subscribe-button:hover {
+  background-color: #68a2ca;
+}
+
+.subscribe-button:active {
+  background-color: #82b3d3;
+  color: rgba(255, 255, 255, 0.3);
+}
+
 
 
 .page-footer {
@@ -654,6 +663,20 @@ button {
   padding: 0;
 }
 
+.infrastructure-item:hover,
+.type-housing-item:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.infrastructure-item:active,
+.type-housing-item:active {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+
+
 .cost {
   margin-right: 70px;
 }
@@ -681,6 +704,11 @@ button {
   font-size: 18px;
   line-height: 24px;
   opacity: 0.6;
+}
+
+.start-cost:focus,
+.end-cost:focus {
+  outline: 3px solid #82b3d3;
 }
 
 .filter-buttons {
@@ -731,11 +759,7 @@ button {
 }
 
 .filter-buttons-cancel:focus {
-  box-sizing: border-box;
-  color: #ffffff;
-  border: 3px solid #82b3d3;
-  border-radius: 4px;
-  outline: none;
+  outline: 3px solid #82b3d3;
 }
 
 .filter-buttons-cancel:active {
