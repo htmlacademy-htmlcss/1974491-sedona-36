@@ -95,14 +95,17 @@
                             <h3>Инфраструктура:</h3>
                             <ul class="infrastructure-items">
                                 <li class="infrastructure-item">
-                                    <p><input type="checkbox" name="infrastructure" value="pool" checked> Бассейн</p>
+                                    <input class="custom-checkbox" type="checkbox" name="infrastructure" id="pool" value="pool" checked>
+                                     <label for="pool">Бассейн</label>
                                 </li>
                                 <li class="infrastructure-item">
-                                    <p><input type="checkbox" name="infrastructure" value="parking" checked> Парковка
-                                    </p>
+                                    <input class="custom-checkbox" type="checkbox" name="infrastructure" value="parking" id="parking" checked>
+                                    <label for="parking">Парковка</label>
+
                                 </li>
                                 <li class="infrastructure-item">
-                                    <p><input type="checkbox" name="infrastructure" value="wifi"> Wi-Fi</p>
+                                    <input class="custom-checkbox" type="checkbox" name="infrastructure" value="wifi" id="wifi">
+                                    <label for="wifi">Wi-Fi</label>
                                 </li>
                             </ul>
 
@@ -111,16 +114,18 @@
                             <h3>Тип жилья:</h3>
                             <ul class="type-housing-items">
                                 <li class="type-housing-item">
-                                    <p><input name="type-housing" type="radio" value="hotel" checked>Гостиница</p>
+                                    <input class="custom-radio" name="type-housing" type="radio" value="hotel" id="hotel" checked>
+                                    <label for="hotel">Гостиница</label>
                                 </li>
                                 <li class="type-housing-item">
-                                    <p><input name="type-housing" type="radio" value="motel">Мотель</p>
+                                    <input class="custom-radio" name="type-housing" type="radio" value="motel" id="motel" checked><label>Мотель</label>
                                 </li>
                                 <li class="type-housing-item">
-                                    <p><input name="type-housing" type="radio" value="appartments">Апартаменты</p>
+                                    <input class="custom-radio" name="type-housing" type="radio" value="appartments" id="appartments"><label>Апартаменты</label>
                                 </li>
                             </ul>
                         </div>
+
                         <div class="cost">
                             <h3>Стоимость, ₽:</h3>
                             <div class="cost-range">
@@ -132,7 +137,21 @@
                                 </label>
                             </div>
 
+                            <div class="range-scale">
+                                <div class="range-bar" style="left: 10px; width: 170px">
+                                  <button class="range-toggle toggle-min">
+                                    <span class="visually-hidden">Изменить минимальную цену.</span>
+                                  </button>
+                                  <button class="range-toggle toggle-max">
+                                    <span class="visually-hidden">Изменить максимальную цену.</span>
+                                  </button>
+                                </div>
+                              </div>
+
+
                         </div>
+
+
                         <div class="filter-buttons">
                             <button class="filter-buttons-accept" type="button">Применить</button>
                             <button class="filter-buttons-cancel" type="button">СБРОСИТЬ</button>
