@@ -90,72 +90,82 @@
                     </div>
 
                     <div class="filters">
-                        <h2 class="visually-hidden">Фильтры</h2>
-                        <div class="infrastructure">
-                            <h3>Инфраструктура:</h3>
-                            <ul class="infrastructure-items">
-                                <li class="infrastructure-item">
-                                    <input class="custom-checkbox" type="checkbox" name="infrastructure" id="pool" value="pool" checked>
-                                     <label for="pool">Бассейн</label>
-                                </li>
-                                <li class="infrastructure-item">
-                                    <input class="custom-checkbox" type="checkbox" name="infrastructure" value="parking" id="parking" checked>
-                                    <label for="parking">Парковка</label>
+                        <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
 
-                                </li>
-                                <li class="infrastructure-item">
-                                    <input class="custom-checkbox" type="checkbox" name="infrastructure" value="wifi" id="wifi">
-                                    <label for="wifi">Wi-Fi</label>
-                                </li>
-                            </ul>
 
-                        </div>
-                        <div class="type-housing">
-                            <h3>Тип жилья:</h3>
-                            <ul class="type-housing-items">
-                                <li class="type-housing-item">
-                                    <input class="custom-radio" name="type-housing" type="radio" value="hotel" id="hotel" checked>
-                                    <label for="hotel">Гостиница</label>
-                                </li>
-                                <li class="type-housing-item">
-                                    <input class="custom-radio" name="type-housing" type="radio" value="motel" id="motel" checked><label>Мотель</label>
-                                </li>
-                                <li class="type-housing-item">
-                                    <input class="custom-radio" name="type-housing" type="radio" value="appartments" id="appartments"><label>Апартаменты</label>
-                                </li>
-                            </ul>
-                        </div>
+                            <h2 class="visually-hidden">Фильтры</h2>
+                            <div class="infrastructure">
+                                <h3>Инфраструктура:</h3>
+                                <ul class="infrastructure-items">
+                                    <li class="infrastructure-item">
+                                        <input class="custom-checkbox" type="checkbox" name="infrastructure" id="pool"
+                                            value="pool" checked>
+                                        <label for="pool">Бассейн</label>
+                                    </li>
+                                    <li class="infrastructure-item">
+                                        <input class="custom-checkbox" type="checkbox" name="infrastructure"
+                                            value="parking" id="parking" checked>
+                                        <label for="parking">Парковка</label>
 
-                        <div class="cost">
-                            <h3>Стоимость, ₽:</h3>
-                            <div class="cost-range">
-                                <label class="cost-range-start">
-                                    <input class="start-cost" type="number" value="0"><span>от</span>
-                                </label>
-                                <label class="cost-range-end">
-                                    <input class="end-cost" type="number" value="9000"><span>до</span>
-                                </label>
+                                    </li>
+                                    <li class="infrastructure-item">
+                                        <input class="custom-checkbox" type="checkbox" name="infrastructure"
+                                            value="wifi" id="wifi">
+                                        <label for="wifi">Wi-Fi</label>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="type-housing">
+                                <h3>Тип жилья:</h3>
+                                <ul class="type-housing-items">
+                                    <li class="type-housing-item">
+                                        <input class="custom-radio" name="type-housing" type="radio" value="hotel"
+                                            id="hotel" checked>
+                                        <label for="hotel">Гостиница</label>
+                                    </li>
+                                    <li class="type-housing-item">
+                                        <input class="custom-radio" name="type-housing" type="radio" value="motel"
+                                            id="motel" checked><label>Мотель</label>
+                                    </li>
+                                    <li class="type-housing-item">
+                                        <input class="custom-radio" name="type-housing" type="radio" value="appartments"
+                                            id="appartments"><label>Апартаменты</label>
+                                    </li>
+                                </ul>
                             </div>
 
-                            <div class="range-scale">
-                                <div class="range-bar" style="left: 10px; width: 170px">
-                                  <button class="range-toggle toggle-min">
-                                    <span class="visually-hidden">Изменить минимальную цену.</span>
-                                  </button>
-                                  <button class="range-toggle toggle-max">
-                                    <span class="visually-hidden">Изменить максимальную цену.</span>
-                                  </button>
+                            <div class="cost">
+                                <h3>Стоимость, ₽:</h3>
+                                <div class="cost-range">
+                                    <label class="cost-range-start">
+                                        <input class="start-cost" type="number" value="0"><span>от</span>
+                                    </label>
+                                    <label class="cost-range-end">
+                                        <input class="end-cost" type="number" value="9000"><span>до</span>
+                                    </label>
                                 </div>
-                              </div>
+
+                                <div class="range-scale">
+                                    <div class="range-bar" style="left: 10px; width: 170px">
+                                        <button class="range-toggle toggle-min">
+                                            <span class="visually-hidden">Изменить минимальную цену.</span>
+                                        </button>
+                                        <button class="range-toggle toggle-max">
+                                            <span class="visually-hidden">Изменить максимальную цену.</span>
+                                        </button>
+                                    </div>
+                                </div>
 
 
-                        </div>
+                            </div>
 
 
-                        <div class="filter-buttons">
-                            <button class="filter-buttons-accept" type="button">Применить</button>
-                            <button class="filter-buttons-cancel" type="button">СБРОСИТЬ</button>
-                        </div>
+                            <div class="filter-buttons">
+                                <button class="filter-buttons-accept" type="submit">Применить</button>
+                                <button class="filter-buttons-cancel" type="reset">СБРОСИТЬ</button>
+                            </div>
+                        </form>
                     </div>
 
                 </section>
