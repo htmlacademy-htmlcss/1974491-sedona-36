@@ -26,6 +26,7 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   min-height: 100%;
 }
 
@@ -72,6 +73,7 @@ input[type=number] {
   background-color: #ffffff;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   height: 64px;
 }
 
@@ -85,6 +87,7 @@ input[type=number] {
   display: flex;
   justify-content: space-between;
   flex-grow: 1;
+  flex-wrap: wrap;
 }
 
 
@@ -92,6 +95,7 @@ input[type=number] {
   list-style-type: none;
   display: flex;
   justify-content: flex-start;
+  flex-wrap: wrap;
   align-items: center;
   padding: 0;
   margin: 0;
@@ -112,6 +116,7 @@ input[type=number] {
   list-style-type: none;
   display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap;
   align-items: center;
   padding: 0;
   margin: 0;
@@ -192,12 +197,13 @@ input[type=number] {
 
 .hero {
   width: 1200px;
-  height: 485px;
+  min-height: 485px;
   background-color: #ffffff;
   background-image: url("../img/index-background.jpg");
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -210,11 +216,11 @@ input[type=number] {
 }
 
 .reasons {
-
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 69px auto;
+  flex-wrap: wrap;
 }
 
 .reasons-header {
@@ -252,6 +258,7 @@ input[type=number] {
 .advantages-item {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   flex-grow: 1;
 }
 
@@ -260,6 +267,7 @@ input[type=number] {
   min-height: 385px;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
 
@@ -276,7 +284,7 @@ input[type=number] {
   line-height: 28px;
   font-weight: 700;
   width: 175px;
-  height: 56px;
+  min-height: 56px;
   margin: 62px auto;
   position: relative;
   text-transform: uppercase;
@@ -329,6 +337,7 @@ input[type=number] {
 .slogan {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   margin: 64px auto;
 
@@ -364,7 +373,7 @@ input[type=number] {
 }
 
 .recomendation-item {
-  max-height: 400px;
+  min-height: 400px;
   margin: 0;
   padding: 0;
 }
@@ -376,6 +385,7 @@ input[type=number] {
 .recomendation-card {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   margin: 81px 85px;
   color: #82b3d3;
@@ -399,6 +409,7 @@ input[type=number] {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   margin: 96px 304px;
 }
@@ -440,16 +451,17 @@ input[type=number] {
   background-color: #000000;
   background-image: url("../img/Subscribe.jpg");
   background-repeat: no-repeat;
-  height: 415px;
+  min-height: 415px;
 }
 
 .subscribe-wrapper {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   width: 684px;
-  height: 215px;
+  min-height: 215px;
   margin: 96px auto;
   color: #ffffff;
 }
@@ -468,10 +480,11 @@ input[type=number] {
 }
 
 .subscribe-form {
-  height: 52px;
+  min-height: 52px;
   background-color: #f2f2f2;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .subscribe-button {
@@ -498,6 +511,7 @@ input[type=number] {
 .page-footer {
   margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 40px 70px 30px;
@@ -511,6 +525,7 @@ input[type=number] {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin: 0 auto;
   padding: 0;
 }
@@ -518,6 +533,7 @@ input[type=number] {
 .footer-social-item {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .contacts-address {
@@ -603,9 +619,7 @@ input[type=number] {
   background-color: #000000;
   background-image: url("../img/filter.jpg");
   background-repeat: no-repeat;
-  /* margin: 0 auto; */
   min-height: 412px;
-
 }
 
 .filter-wrapper {
@@ -624,6 +638,7 @@ input[type=number] {
   display: flex;
   justify-content: start;
   list-style-type: none;
+  flex-wrap: wrap;
   padding: 0;
 }
 
@@ -654,6 +669,7 @@ a.breadcrumbs-item {
 .filters {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin: 0 70px;
 }
 
@@ -744,6 +760,7 @@ a.breadcrumbs-item {
   margin: 0;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   gap: 16px;
 }
 
@@ -796,11 +813,12 @@ a.breadcrumbs-item {
   width: 288px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: nowrap;
 }
 
 .start-cost,
 .end-cost {
-  height: 48px;
+  min-height: 48px;
   width: 90px;
   font-size: 18px;
   line-height: 24px;
@@ -877,6 +895,7 @@ a.breadcrumbs-item {
 .filter-buttons {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   color: #ffffff;
   font-size: 16px;
   line-height: 20px;
@@ -940,6 +959,7 @@ a.breadcrumbs-item {
 .hotels-wrapper {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-self: baseline;
   margin: 0 70px;
 }
@@ -952,7 +972,7 @@ a.breadcrumbs-item {
 }
 
 .select-control {
-  height: 48px;
+  min-height: 48px;
   width: 292px;
   align-self: center;
   background-color: transparent;
@@ -1051,6 +1071,7 @@ a.breadcrumbs-item {
   width: 340px;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   border: 1px solid #e6e6e6;
   border-radius: 4px;
   padding: 20px;
@@ -1072,6 +1093,7 @@ a.breadcrumbs-item {
   color: #333333;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .hotels-type-price p {
@@ -1081,6 +1103,7 @@ a.breadcrumbs-item {
 .hotels-buttons {
   display: flex;
   justify-content: space-between;
+  flex-wrap: nowrap;
   gap: 30px;
 }
 
@@ -1179,6 +1202,7 @@ hotels-favorites:active {
 .pagination {
   display: flex;
   justify-content: start;
+  flex-wrap: wrap;
   list-style-type: none;
   padding: 0;
   margin: 80px 0 0 70px;
