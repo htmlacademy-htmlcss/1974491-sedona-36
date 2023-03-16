@@ -679,6 +679,12 @@ a.breadcrumbs-item {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.catalog-filter {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   margin: 0 70px;
 }
 
@@ -812,6 +818,7 @@ a.breadcrumbs-item {
 
 .cost {
   margin-right: 70px;
+  margin-left: 140px;
 }
 
 .cost-range {
@@ -819,10 +826,16 @@ a.breadcrumbs-item {
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
-  width: 288px;
+  width: 240px;
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
+}
+
+.cost-range-start,
+.cost-range-end {
+  width: 90px;
+  padding-right: 20px;
 }
 
 .start-cost,
@@ -832,15 +845,15 @@ a.breadcrumbs-item {
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
-  padding-right: 57px;
-  padding-left: 20px;
+  padding-right: 20px;
+  padding-left: 10px;
 }
 
 .start-cost + span,
 .end-cost + span {
   position: relative;
-  left: 140px;
-  top: -38px;
+  left: 90px;
+  top: -39px;
   font-size: 18px;
   line-height: 24px;
   opacity: 0.6;
@@ -910,6 +923,7 @@ a.breadcrumbs-item {
   line-height: 20px;
   font-weight: 700;
   margin-top: 56px;
+  margin-left: 50px;
 }
 
 .filter-buttons-accept {
