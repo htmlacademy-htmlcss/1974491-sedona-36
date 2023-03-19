@@ -73,6 +73,7 @@ input[type=number] {
   background-color: #ffffff;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
   height: 64px;
 }
@@ -88,6 +89,7 @@ input[type=number] {
   justify-content: space-between;
   flex-grow: 1;
   flex-wrap: wrap;
+  margin-top: -10px;
 }
 
 
@@ -124,7 +126,7 @@ input[type=number] {
 }
 
 .navigation-user .navigation-item:last-of-type {
-  margin-left: 20px;
+  margin-left: -5px;
 }
 
 .navigation-links-current {
@@ -219,17 +221,20 @@ input[type=number] {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 69px auto;
+  margin: 69px auto 90px;
   flex-wrap: wrap;
+
 }
 
 .reasons-header {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
-  width: 620px;
+  width: 627px;
   text-align: center;
   margin: 0;
+  padding: 0;
+  text-transform: uppercase;
 }
 
 .reasons-text {
@@ -285,7 +290,7 @@ input[type=number] {
   font-weight: 700;
   width: 175px;
   min-height: 56px;
-  margin: 62px auto;
+  margin: 0 auto 62px;
   position: relative;
   text-transform: uppercase;
 }
@@ -350,6 +355,7 @@ input[type=number] {
   width: 505px;
   text-align: center;
   margin: 0 auto 20px;
+  text-transform: uppercase;
 }
 
 .slogan-text {
@@ -357,6 +363,7 @@ input[type=number] {
   line-height: 26px;
   width: 490px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .recomendations {
@@ -389,10 +396,13 @@ input[type=number] {
   align-items: center;
   margin: 81px 85px;
   color: #82b3d3;
+  width: 230px;
 }
 
 .recomendation-card h3 {
   color: #000000;
+  text-transform: uppercase;
+  margin: 30px auto;
 }
 
 .recomendation-name {
@@ -403,6 +413,8 @@ input[type=number] {
 .recomendation-text {
   text-align: center;
   color: #333333;
+  margin: 0;
+  text-align: center;
 }
 
 .interested-wrapper {
@@ -411,19 +423,23 @@ input[type=number] {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  margin: 96px 304px;
+  margin: 96px auto;
 }
 
-.interested h2 {
+.interested-wrapper h2 {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
 }
 
 .interested-text {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
+  margin-bottom: 54px;
 }
 
 .intersted-button {
@@ -436,6 +452,7 @@ input[type=number] {
   background-color: #756157;
   border-radius: 4px;
   color: #ffffff;
+  margin: 0;
 }
 
 .intersted-button:hover {
@@ -449,7 +466,7 @@ input[type=number] {
 
 .subscribe {
   background-color: #000000;
-  background-image: url("../img/Subscribe.jpg");
+  background-image: url("../img/subscribe.jpg");
   background-repeat: no-repeat;
   min-height: 415px;
 }
@@ -466,11 +483,13 @@ input[type=number] {
   color: #ffffff;
 }
 
-.subscribe h2 {
+.subscribe-wrapper h2 {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
   margin-top: 96px;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .subscribe-text {
@@ -482,7 +501,8 @@ input[type=number] {
 .subscribe-form {
   min-height: 52px;
   width: 684px;
-  background-color: #f2f2f2;
+  background-image: none;
+  background-color: transparent;
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
@@ -492,6 +512,11 @@ input[type=number] {
   flex-grow: 1;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
+  border: none;
+  background-color: #f2f2f2;
+  padding-left: 20px;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .subscribe-button {
@@ -504,6 +529,7 @@ input[type=number] {
   padding: 8px 50px;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
+  text-align: center;
 }
 
 .subscribe-button:hover {
@@ -649,6 +675,7 @@ input[type=number] {
   list-style-type: none;
   flex-wrap: wrap;
   padding: 0;
+  margin-top: 5px;
 }
 
 .breadcrumbs li:not(:last-child) {
@@ -676,6 +703,13 @@ a.breadcrumbs-item {
 
 
 .filters {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.catalog-filter {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -812,6 +846,7 @@ a.breadcrumbs-item {
 
 .cost {
   margin-right: 70px;
+  margin-left: 140px;
 }
 
 .cost-range {
@@ -819,10 +854,16 @@ a.breadcrumbs-item {
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
-  width: 288px;
+  width: 240px;
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
+}
+
+.cost-range-start,
+.cost-range-end {
+  width: 90px;
+  padding-right: 20px;
 }
 
 .start-cost,
@@ -832,15 +873,25 @@ a.breadcrumbs-item {
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
-  padding-right: 57px;
-  padding-left: 20px;
+  padding-right: 20px;
+  padding-left: 10px;
+}
+
+.start-cost {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.end-cost {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 
 .start-cost + span,
 .end-cost + span {
   position: relative;
-  left: 140px;
-  top: -38px;
+  left: 90px;
+  top: -39px;
   font-size: 18px;
   line-height: 24px;
   opacity: 0.6;
@@ -910,6 +961,7 @@ a.breadcrumbs-item {
   line-height: 20px;
   font-weight: 700;
   margin-top: 56px;
+  margin-left: 50px;
 }
 
 .filter-buttons-accept {
@@ -971,7 +1023,7 @@ a.breadcrumbs-item {
   justify-content: space-between;
   flex-wrap: wrap;
   align-self: baseline;
-  margin: 0 70px;
+  margin: 25px 70px;
 }
 
 .hotels-search {
@@ -979,6 +1031,7 @@ a.breadcrumbs-item {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .select-control {
@@ -1296,11 +1349,16 @@ hotels-favorites:active {
   margin-bottom: 97px;
 }
 
+.subscribe-catalog {
 
+  padding-top: 56px;
+  min-height: 415px;
+}
 
 .subscribe-catalog h2,
 .subscribe-catalog p {
   color: #000000;
+  margin: 0;
 }
 
 .modal-container {
