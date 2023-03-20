@@ -30,10 +30,7 @@ body {
   min-height: 100%;
 }
 
-button {
-  box-sizing: border-box;
-  border-style: none;
-}
+
 
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
@@ -284,7 +281,8 @@ input[type=number] {
   margin: 0 85px;
 }
 
-.advantages-item-card-heading {
+.advantages-item-card-heading,
+.advantages-item-card-heading-wide {
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
@@ -323,7 +321,7 @@ input[type=number] {
   display: block;
 }
 
-.advantages-item-wide > .advantages-item-card > .advantages-item-card-heading::after {
+h3.advantages-item-card-heading-wide::after {
   position: absolute;
   content: "";
   width: 60px;
@@ -453,6 +451,7 @@ input[type=number] {
   border-radius: 4px;
   color: #ffffff;
   margin: 0;
+
 }
 
 .intersted-button:hover {
@@ -530,6 +529,9 @@ input[type=number] {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
   text-align: center;
+  box-sizing: border-box;
+  border-style: none;
+
 }
 
 .subscribe-button:hover {
@@ -925,6 +927,9 @@ a.breadcrumbs-item {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  box-sizing: border-box;
+  border-style: none;
+
 }
 
 .range-toggle:hover {
@@ -967,6 +972,9 @@ a.breadcrumbs-item {
 .filter-buttons-accept {
   margin-bottom: 32px;
   border-radius: 4px;
+  box-sizing: border-box;
+  border-style: none;
+
 }
 
 
@@ -996,6 +1004,9 @@ a.breadcrumbs-item {
 
 .filter-buttons-cancel {
   background-color: transparent;
+  box-sizing: border-box;
+  border-style: none;
+
 }
 
 .filter-buttons-cancel:hover {
@@ -1086,6 +1097,9 @@ a.breadcrumbs-item {
   background-color: transparent;
   border-radius: 4px;
   border: 2px solid #e5e5e5;
+  box-sizing: border-box;
+  border-style: none;
+
 }
 
 .hotels-sorting-table:hover,
@@ -1168,6 +1182,9 @@ a.breadcrumbs-item {
   justify-content: space-between;
   flex-wrap: nowrap;
   gap: 30px;
+  box-sizing: border-box;
+  border-style: none;
+
 }
 
 .hotels-buttons p {
@@ -1402,6 +1419,8 @@ hotels-favorites:active {
   border: none;
   background-color: #F2F2F2;
   cursor: pointer;
+  box-sizing: border-box;
+  border-style: none;
 }
 
 .modal-close-button:hover {
@@ -1530,6 +1549,9 @@ hotels-favorites:active {
   border: none;
   background-color: #F2F2F2;
   cursor: pointer;
+  box-sizing: border-box;
+  border-style: none;
+
 }
 
 .minus-button {
@@ -1609,6 +1631,9 @@ hotels-favorites:active {
   font-family: inherit;
   font-size: 18px;
   text-align: center;
+  box-sizing: border-box;
+  border-style: none;
+
 }
 
 .tooltip-toggle:hover,
